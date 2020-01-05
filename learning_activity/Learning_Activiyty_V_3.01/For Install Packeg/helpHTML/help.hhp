@@ -1,0 +1,20 @@
+[OPTIONS]
+Auto Index=Yes
+Auto TOC=9
+Binary Index=No
+Compatibility=1.1 or later
+Compiled file=help.chm
+Contents file=Contents.hhc
+Default Font=Arial CYR,8,0
+Default topic=form1.htm
+Display compile progress=No
+Index file=Index.hhk
+Language=0x402 Bulgarian (Bulgaria)
+Title=Начало
+
+
+[FILES]
+form1.htm
+
+[INFOTYPES]
+

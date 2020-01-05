@@ -1,0 +1,664 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class classes_manual_input
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim НомерLabel As System.Windows.Forms.Label
+        Dim КласLabel As System.Windows.Forms.Label
+        Dim ПаралелкаLabel As System.Windows.Forms.Label
+        Dim ПрофилLabel As System.Windows.Forms.Label
+        Dim Брой_ученициLabel As System.Windows.Forms.Label
+        Dim Label2 As System.Windows.Forms.Label
+        Dim Label3 As System.Windows.Forms.Label
+        Dim Label4 As System.Windows.Forms.Label
+        Dim Label5 As System.Windows.Forms.Label
+        Dim Label6 As System.Windows.Forms.Label
+        Dim Label7 As System.Windows.Forms.Label
+        Dim Учебна_годинаLabel As System.Windows.Forms.Label
+        Dim НомерLabel1 As System.Windows.Forms.Label
+        Dim Учебна_годинаLabel1 As System.Windows.Forms.Label
+        Dim КласLabel1 As System.Windows.Forms.Label
+        Dim ПаралелкаLabel1 As System.Windows.Forms.Label
+        Dim ПрофилLabel1 As System.Windows.Forms.Label
+        Dim Брой_ученициLabel1 As System.Windows.Forms.Label
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(classes_manual_input))
+        Me.dgv1 = New System.Windows.Forms.DataGridView()
+        Me.iddgv1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.shoolYear_dgv = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Grade = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.classas_dgv = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.profile_dgv = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Student_dgv = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.cmbStudentsUp = New System.Windows.Forms.ComboBox()
+        Me.cmbprofileUp = New System.Windows.Forms.ComboBox()
+        Me.cmbClassUp = New System.Windows.Forms.ComboBox()
+        Me.cmbGradeUp = New System.Windows.Forms.ComboBox()
+        Me.cmbyearUp = New System.Windows.Forms.ComboBox()
+        Me.lblIdUp = New System.Windows.Forms.Label()
+        Me.btnUpload = New System.Windows.Forms.Button()
+        Me.Learning_activityDataSet = New learning_activity.learning_activityDataSet()
+        Me.ClassesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.ClassesTableAdapter = New learning_activity.learning_activityDataSetTableAdapters.classesTableAdapter()
+        Me.TableAdapterManager = New learning_activity.learning_activityDataSetTableAdapters.TableAdapterManager()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.lblstudentDel = New System.Windows.Forms.Label()
+        Me.lblProfilDel = New System.Windows.Forms.Label()
+        Me.lblClassesDel = New System.Windows.Forms.Label()
+        Me.lblbGradeDel = New System.Windows.Forms.Label()
+        Me.lblYearDel = New System.Windows.Forms.Label()
+        Me.btndeletesubject = New System.Windows.Forms.Button()
+        Me.lblIdDel = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.cmbSR = New System.Windows.Forms.ComboBox()
+        Me.btnRedakchia = New System.Windows.Forms.Button()
+        Me.cmbParalR = New System.Windows.Forms.ComboBox()
+        Me.lblidR = New System.Windows.Forms.Label()
+        Me.cmbClassR = New System.Windows.Forms.ComboBox()
+        Me.cmbYR = New System.Windows.Forms.ComboBox()
+        Me.cmbPR = New System.Windows.Forms.ComboBox()
+        Me.HelpProvider1 = New System.Windows.Forms.HelpProvider()
+        НомерLabel = New System.Windows.Forms.Label()
+        КласLabel = New System.Windows.Forms.Label()
+        ПаралелкаLabel = New System.Windows.Forms.Label()
+        ПрофилLabel = New System.Windows.Forms.Label()
+        Брой_ученициLabel = New System.Windows.Forms.Label()
+        Label2 = New System.Windows.Forms.Label()
+        Label3 = New System.Windows.Forms.Label()
+        Label4 = New System.Windows.Forms.Label()
+        Label5 = New System.Windows.Forms.Label()
+        Label6 = New System.Windows.Forms.Label()
+        Label7 = New System.Windows.Forms.Label()
+        Учебна_годинаLabel = New System.Windows.Forms.Label()
+        НомерLabel1 = New System.Windows.Forms.Label()
+        Учебна_годинаLabel1 = New System.Windows.Forms.Label()
+        КласLabel1 = New System.Windows.Forms.Label()
+        ПаралелкаLabel1 = New System.Windows.Forms.Label()
+        ПрофилLabel1 = New System.Windows.Forms.Label()
+        Брой_ученициLabel1 = New System.Windows.Forms.Label()
+        CType(Me.dgv1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
+        CType(Me.Learning_activityDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ClassesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'НомерLabel
+        '
+        НомерLabel.AutoSize = True
+        НомерLabel.Location = New System.Drawing.Point(17, 30)
+        НомерLabel.Name = "НомерLabel"
+        НомерLabel.Size = New System.Drawing.Size(29, 13)
+        НомерLabel.TabIndex = 6
+        НомерLabel.Text = "Код:"
+        '
+        'КласLabel
+        '
+        КласLabel.AutoSize = True
+        КласLabel.Location = New System.Drawing.Point(17, 86)
+        КласLabel.Name = "КласLabel"
+        КласLabel.Size = New System.Drawing.Size(35, 13)
+        КласLabel.TabIndex = 10
+        КласLabel.Text = "Клас:"
+        '
+        'ПаралелкаLabel
+        '
+        ПаралелкаLabel.AutoSize = True
+        ПаралелкаLabel.Location = New System.Drawing.Point(17, 113)
+        ПаралелкаLabel.Name = "ПаралелкаLabel"
+        ПаралелкаLabel.Size = New System.Drawing.Size(66, 13)
+        ПаралелкаLabel.TabIndex = 12
+        ПаралелкаLabel.Text = "Паралелка:"
+        '
+        'ПрофилLabel
+        '
+        ПрофилLabel.AutoSize = True
+        ПрофилLabel.Location = New System.Drawing.Point(17, 140)
+        ПрофилLabel.Name = "ПрофилLabel"
+        ПрофилLabel.Size = New System.Drawing.Size(50, 13)
+        ПрофилLabel.TabIndex = 14
+        ПрофилLabel.Text = "Профил:"
+        '
+        'Брой_ученициLabel
+        '
+        Брой_ученициLabel.AutoSize = True
+        Брой_ученициLabel.Location = New System.Drawing.Point(17, 167)
+        Брой_ученициLabel.Name = "Брой_ученициLabel"
+        Брой_ученициLabel.Size = New System.Drawing.Size(78, 13)
+        Брой_ученициLabel.TabIndex = 16
+        Брой_ученициLabel.Text = "Брой ученици:"
+        '
+        'Label2
+        '
+        Label2.AutoSize = True
+        Label2.Location = New System.Drawing.Point(17, 30)
+        Label2.Name = "Label2"
+        Label2.Size = New System.Drawing.Size(29, 13)
+        Label2.TabIndex = 6
+        Label2.Text = "Код:"
+        '
+        'Label3
+        '
+        Label3.AutoSize = True
+        Label3.Location = New System.Drawing.Point(17, 59)
+        Label3.Name = "Label3"
+        Label3.Size = New System.Drawing.Size(85, 13)
+        Label3.TabIndex = 8
+        Label3.Text = "Учебна година:"
+        '
+        'Label4
+        '
+        Label4.AutoSize = True
+        Label4.Location = New System.Drawing.Point(17, 86)
+        Label4.Name = "Label4"
+        Label4.Size = New System.Drawing.Size(35, 13)
+        Label4.TabIndex = 10
+        Label4.Text = "Клас:"
+        '
+        'Label5
+        '
+        Label5.AutoSize = True
+        Label5.Location = New System.Drawing.Point(17, 113)
+        Label5.Name = "Label5"
+        Label5.Size = New System.Drawing.Size(66, 13)
+        Label5.TabIndex = 12
+        Label5.Text = "Паралелка:"
+        '
+        'Label6
+        '
+        Label6.AutoSize = True
+        Label6.Location = New System.Drawing.Point(17, 140)
+        Label6.Name = "Label6"
+        Label6.Size = New System.Drawing.Size(50, 13)
+        Label6.TabIndex = 14
+        Label6.Text = "Профил:"
+        '
+        'Label7
+        '
+        Label7.AutoSize = True
+        Label7.Location = New System.Drawing.Point(17, 167)
+        Label7.Name = "Label7"
+        Label7.Size = New System.Drawing.Size(78, 13)
+        Label7.TabIndex = 16
+        Label7.Text = "Брой ученици:"
+        '
+        'Учебна_годинаLabel
+        '
+        Учебна_годинаLabel.AutoSize = True
+        Учебна_годинаLabel.Location = New System.Drawing.Point(17, 59)
+        Учебна_годинаLabel.Name = "Учебна_годинаLabel"
+        Учебна_годинаLabel.Size = New System.Drawing.Size(85, 13)
+        Учебна_годинаLabel.TabIndex = 8
+        Учебна_годинаLabel.Text = "Учебна година:"
+        '
+        'НомерLabel1
+        '
+        НомерLabel1.AutoSize = True
+        НомерLabel1.Location = New System.Drawing.Point(21, 30)
+        НомерLabel1.Name = "НомерLabel1"
+        НомерLabel1.Size = New System.Drawing.Size(29, 13)
+        НомерLabel1.TabIndex = 0
+        НомерLabel1.Text = "Код:"
+        '
+        'Учебна_годинаLabel1
+        '
+        Учебна_годинаLabel1.AutoSize = True
+        Учебна_годинаLabel1.Location = New System.Drawing.Point(21, 59)
+        Учебна_годинаLabel1.Name = "Учебна_годинаLabel1"
+        Учебна_годинаLabel1.Size = New System.Drawing.Size(85, 13)
+        Учебна_годинаLabel1.TabIndex = 2
+        Учебна_годинаLabel1.Text = "Учебна година:"
+        '
+        'КласLabel1
+        '
+        КласLabel1.AutoSize = True
+        КласLabel1.Location = New System.Drawing.Point(21, 86)
+        КласLabel1.Name = "КласLabel1"
+        КласLabel1.Size = New System.Drawing.Size(35, 13)
+        КласLabel1.TabIndex = 4
+        КласLabel1.Text = "Клас:"
+        '
+        'ПаралелкаLabel1
+        '
+        ПаралелкаLabel1.AutoSize = True
+        ПаралелкаLabel1.Location = New System.Drawing.Point(21, 113)
+        ПаралелкаLabel1.Name = "ПаралелкаLabel1"
+        ПаралелкаLabel1.Size = New System.Drawing.Size(66, 13)
+        ПаралелкаLabel1.TabIndex = 6
+        ПаралелкаLabel1.Text = "Паралелка:"
+        '
+        'ПрофилLabel1
+        '
+        ПрофилLabel1.AutoSize = True
+        ПрофилLabel1.Location = New System.Drawing.Point(21, 140)
+        ПрофилLabel1.Name = "ПрофилLabel1"
+        ПрофилLabel1.Size = New System.Drawing.Size(50, 13)
+        ПрофилLabel1.TabIndex = 8
+        ПрофилLabel1.Text = "Профил:"
+        '
+        'Брой_ученициLabel1
+        '
+        Брой_ученициLabel1.AutoSize = True
+        Брой_ученициLabel1.Location = New System.Drawing.Point(21, 167)
+        Брой_ученициLabel1.Name = "Брой_ученициLabel1"
+        Брой_ученициLabel1.Size = New System.Drawing.Size(78, 13)
+        Брой_ученициLabel1.TabIndex = 10
+        Брой_ученициLabel1.Text = "Брой ученици:"
+        '
+        'dgv1
+        '
+        Me.dgv1.AllowUserToAddRows = False
+        Me.dgv1.AllowUserToDeleteRows = False
+        Me.dgv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgv1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.iddgv1, Me.shoolYear_dgv, Me.Grade, Me.classas_dgv, Me.profile_dgv, Me.Student_dgv})
+        Me.dgv1.Location = New System.Drawing.Point(105, 278)
+        Me.dgv1.Name = "dgv1"
+        Me.dgv1.ReadOnly = True
+        Me.dgv1.Size = New System.Drawing.Size(691, 234)
+        Me.dgv1.TabIndex = 3
+        '
+        'iddgv1
+        '
+        Me.iddgv1.HeaderText = "Код"
+        Me.iddgv1.Name = "iddgv1"
+        Me.iddgv1.ReadOnly = True
+        '
+        'shoolYear_dgv
+        '
+        Me.shoolYear_dgv.HeaderText = "Учебна година"
+        Me.shoolYear_dgv.Name = "shoolYear_dgv"
+        Me.shoolYear_dgv.ReadOnly = True
+        '
+        'Grade
+        '
+        Me.Grade.HeaderText = "Клас"
+        Me.Grade.Name = "Grade"
+        Me.Grade.ReadOnly = True
+        '
+        'classas_dgv
+        '
+        Me.classas_dgv.HeaderText = "Паралелка"
+        Me.classas_dgv.Name = "classas_dgv"
+        Me.classas_dgv.ReadOnly = True
+        '
+        'profile_dgv
+        '
+        Me.profile_dgv.HeaderText = "Профил"
+        Me.profile_dgv.Name = "profile_dgv"
+        Me.profile_dgv.ReadOnly = True
+        '
+        'Student_dgv
+        '
+        Me.Student_dgv.HeaderText = "Брой ученици"
+        Me.Student_dgv.Name = "Student_dgv"
+        Me.Student_dgv.ReadOnly = True
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.cmbStudentsUp)
+        Me.GroupBox1.Controls.Add(Me.cmbprofileUp)
+        Me.GroupBox1.Controls.Add(Me.cmbClassUp)
+        Me.GroupBox1.Controls.Add(Me.cmbGradeUp)
+        Me.GroupBox1.Controls.Add(Me.cmbyearUp)
+        Me.GroupBox1.Controls.Add(Me.lblIdUp)
+        Me.GroupBox1.Controls.Add(НомерLabel)
+        Me.GroupBox1.Controls.Add(Учебна_годинаLabel)
+        Me.GroupBox1.Controls.Add(КласLabel)
+        Me.GroupBox1.Controls.Add(ПаралелкаLabel)
+        Me.GroupBox1.Controls.Add(ПрофилLabel)
+        Me.GroupBox1.Controls.Add(Брой_ученициLabel)
+        Me.GroupBox1.Controls.Add(Me.btnUpload)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(300, 260)
+        Me.GroupBox1.TabIndex = 19
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Добавяне на клас"
+        '
+        'cmbStudentsUp
+        '
+        Me.cmbStudentsUp.FormattingEnabled = True
+        Me.cmbStudentsUp.Items.AddRange(New Object() {"5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"})
+        Me.cmbStudentsUp.Location = New System.Drawing.Point(142, 164)
+        Me.cmbStudentsUp.Name = "cmbStudentsUp"
+        Me.cmbStudentsUp.Size = New System.Drawing.Size(142, 21)
+        Me.cmbStudentsUp.TabIndex = 22
+        Me.cmbStudentsUp.Text = "20"
+        '
+        'cmbprofileUp
+        '
+        Me.cmbprofileUp.FormattingEnabled = True
+        Me.cmbprofileUp.Location = New System.Drawing.Point(142, 137)
+        Me.cmbprofileUp.Name = "cmbprofileUp"
+        Me.cmbprofileUp.Size = New System.Drawing.Size(142, 21)
+        Me.cmbprofileUp.TabIndex = 21
+        '
+        'cmbClassUp
+        '
+        Me.cmbClassUp.FormattingEnabled = True
+        Me.cmbClassUp.Items.AddRange(New Object() {"а", "б", "в", "г", "д", "е", "ж"})
+        Me.cmbClassUp.Location = New System.Drawing.Point(142, 110)
+        Me.cmbClassUp.Name = "cmbClassUp"
+        Me.cmbClassUp.Size = New System.Drawing.Size(142, 21)
+        Me.cmbClassUp.TabIndex = 20
+        Me.cmbClassUp.Text = "а"
+        '
+        'cmbGradeUp
+        '
+        Me.cmbGradeUp.FormattingEnabled = True
+        Me.cmbGradeUp.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"})
+        Me.cmbGradeUp.Location = New System.Drawing.Point(142, 83)
+        Me.cmbGradeUp.Name = "cmbGradeUp"
+        Me.cmbGradeUp.Size = New System.Drawing.Size(142, 21)
+        Me.cmbGradeUp.TabIndex = 19
+        Me.cmbGradeUp.Text = "1"
+        '
+        'cmbyearUp
+        '
+        Me.cmbyearUp.FormattingEnabled = True
+        Me.cmbyearUp.Items.AddRange(New Object() {"2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25", "2025/26", "2026/27", "2027/28", "2028/29", "2029/30", "2030/31", "2031/32", "2032/33", "2033/34", "2034/35", "2035/36", "2036/37", "2037/38", "2038/39", "2039/40", "2040/41"})
+        Me.cmbyearUp.Location = New System.Drawing.Point(142, 56)
+        Me.cmbyearUp.Name = "cmbyearUp"
+        Me.cmbyearUp.Size = New System.Drawing.Size(142, 21)
+        Me.cmbyearUp.TabIndex = 18
+        Me.cmbyearUp.Text = "2010/11"
+        '
+        'lblIdUp
+        '
+        Me.lblIdUp.Location = New System.Drawing.Point(139, 30)
+        Me.lblIdUp.Name = "lblIdUp"
+        Me.lblIdUp.Size = New System.Drawing.Size(145, 23)
+        Me.lblIdUp.TabIndex = 17
+        '
+        'btnUpload
+        '
+        Me.btnUpload.Location = New System.Drawing.Point(157, 200)
+        Me.btnUpload.Name = "btnUpload"
+        Me.btnUpload.Size = New System.Drawing.Size(112, 44)
+        Me.btnUpload.TabIndex = 6
+        Me.btnUpload.Text = "Въведи класа"
+        Me.btnUpload.UseVisualStyleBackColor = True
+        '
+        'Learning_activityDataSet
+        '
+        Me.Learning_activityDataSet.DataSetName = "learning_activityDataSet"
+        Me.Learning_activityDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'ClassesBindingSource
+        '
+        Me.ClassesBindingSource.DataMember = "classes"
+        Me.ClassesBindingSource.DataSource = Me.Learning_activityDataSet
+        '
+        'ClassesTableAdapter
+        '
+        Me.ClassesTableAdapter.ClearBeforeFill = True
+        '
+        'TableAdapterManager
+        '
+        Me.TableAdapterManager.absenceTableAdapter = Nothing
+        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
+        Me.TableAdapterManager.classesTableAdapter = Me.ClassesTableAdapter
+        Me.TableAdapterManager.profilesTableAdapter = Nothing
+        Me.TableAdapterManager.purposeTableAdapter = Nothing
+        Me.TableAdapterManager.subjectTableAdapter = Nothing
+        Me.TableAdapterManager.teachersTableAdapter = Nothing
+        Me.TableAdapterManager.teachingTableAdapter = Nothing
+        Me.TableAdapterManager.typesTableAdapter = Nothing
+        Me.TableAdapterManager.UpdateOrder = learning_activity.learning_activityDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.lblstudentDel)
+        Me.GroupBox3.Controls.Add(Me.lblProfilDel)
+        Me.GroupBox3.Controls.Add(Me.lblClassesDel)
+        Me.GroupBox3.Controls.Add(Me.lblbGradeDel)
+        Me.GroupBox3.Controls.Add(Me.lblYearDel)
+        Me.GroupBox3.Controls.Add(Me.btndeletesubject)
+        Me.GroupBox3.Controls.Add(Me.lblIdDel)
+        Me.GroupBox3.Controls.Add(Label2)
+        Me.GroupBox3.Controls.Add(Label3)
+        Me.GroupBox3.Controls.Add(Label4)
+        Me.GroupBox3.Controls.Add(Label5)
+        Me.GroupBox3.Controls.Add(Label6)
+        Me.GroupBox3.Controls.Add(Label7)
+        Me.GroupBox3.Location = New System.Drawing.Point(318, 12)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(288, 260)
+        Me.GroupBox3.TabIndex = 21
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Изтриване на клас"
+        '
+        'lblstudentDel
+        '
+        Me.lblstudentDel.Location = New System.Drawing.Point(139, 162)
+        Me.lblstudentDel.Name = "lblstudentDel"
+        Me.lblstudentDel.Size = New System.Drawing.Size(145, 23)
+        Me.lblstudentDel.TabIndex = 28
+        '
+        'lblProfilDel
+        '
+        Me.lblProfilDel.Location = New System.Drawing.Point(139, 140)
+        Me.lblProfilDel.Name = "lblProfilDel"
+        Me.lblProfilDel.Size = New System.Drawing.Size(145, 23)
+        Me.lblProfilDel.TabIndex = 27
+        '
+        'lblClassesDel
+        '
+        Me.lblClassesDel.Location = New System.Drawing.Point(139, 113)
+        Me.lblClassesDel.Name = "lblClassesDel"
+        Me.lblClassesDel.Size = New System.Drawing.Size(145, 23)
+        Me.lblClassesDel.TabIndex = 26
+        '
+        'lblbGradeDel
+        '
+        Me.lblbGradeDel.Location = New System.Drawing.Point(139, 86)
+        Me.lblbGradeDel.Name = "lblbGradeDel"
+        Me.lblbGradeDel.Size = New System.Drawing.Size(145, 23)
+        Me.lblbGradeDel.TabIndex = 25
+        '
+        'lblYearDel
+        '
+        Me.lblYearDel.Location = New System.Drawing.Point(139, 53)
+        Me.lblYearDel.Name = "lblYearDel"
+        Me.lblYearDel.Size = New System.Drawing.Size(145, 23)
+        Me.lblYearDel.TabIndex = 24
+        '
+        'btndeletesubject
+        '
+        Me.btndeletesubject.Location = New System.Drawing.Point(97, 200)
+        Me.btndeletesubject.Name = "btndeletesubject"
+        Me.btndeletesubject.Size = New System.Drawing.Size(112, 44)
+        Me.btndeletesubject.TabIndex = 23
+        Me.btndeletesubject.Text = "Изтрий класа"
+        Me.btndeletesubject.UseVisualStyleBackColor = True
+        '
+        'lblIdDel
+        '
+        Me.lblIdDel.Location = New System.Drawing.Point(139, 30)
+        Me.lblIdDel.Name = "lblIdDel"
+        Me.lblIdDel.Size = New System.Drawing.Size(145, 23)
+        Me.lblIdDel.TabIndex = 17
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.cmbSR)
+        Me.GroupBox2.Controls.Add(Me.btnRedakchia)
+        Me.GroupBox2.Controls.Add(НомерLabel1)
+        Me.GroupBox2.Controls.Add(Me.cmbParalR)
+        Me.GroupBox2.Controls.Add(Me.lblidR)
+        Me.GroupBox2.Controls.Add(Me.cmbClassR)
+        Me.GroupBox2.Controls.Add(Учебна_годинаLabel1)
+        Me.GroupBox2.Controls.Add(Me.cmbYR)
+        Me.GroupBox2.Controls.Add(КласLabel1)
+        Me.GroupBox2.Controls.Add(ПаралелкаLabel1)
+        Me.GroupBox2.Controls.Add(ПрофилLabel1)
+        Me.GroupBox2.Controls.Add(Me.cmbPR)
+        Me.GroupBox2.Controls.Add(Брой_ученициLabel1)
+        Me.GroupBox2.Location = New System.Drawing.Point(612, 12)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(288, 260)
+        Me.GroupBox2.TabIndex = 21
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Редактиране на клас"
+        '
+        'cmbSR
+        '
+        Me.cmbSR.FormattingEnabled = True
+        Me.cmbSR.Items.AddRange(New Object() {"5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"})
+        Me.cmbSR.Location = New System.Drawing.Point(112, 164)
+        Me.cmbSR.Name = "cmbSR"
+        Me.cmbSR.Size = New System.Drawing.Size(142, 21)
+        Me.cmbSR.TabIndex = 22
+        Me.cmbSR.Text = "20"
+        '
+        'btnRedakchia
+        '
+        Me.btnRedakchia.Location = New System.Drawing.Point(114, 200)
+        Me.btnRedakchia.Name = "btnRedakchia"
+        Me.btnRedakchia.Size = New System.Drawing.Size(116, 44)
+        Me.btnRedakchia.TabIndex = 12
+        Me.btnRedakchia.Text = "Редактирай класа"
+        Me.btnRedakchia.UseVisualStyleBackColor = True
+        '
+        'cmbParalR
+        '
+        Me.cmbParalR.FormattingEnabled = True
+        Me.cmbParalR.Items.AddRange(New Object() {"а", "б", "в", "г", "д", "е", "ж"})
+        Me.cmbParalR.Location = New System.Drawing.Point(112, 110)
+        Me.cmbParalR.Name = "cmbParalR"
+        Me.cmbParalR.Size = New System.Drawing.Size(142, 21)
+        Me.cmbParalR.TabIndex = 20
+        Me.cmbParalR.Text = "а"
+        '
+        'lblidR
+        '
+        Me.lblidR.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.ClassesBindingSource, "Номер", True))
+        Me.lblidR.Location = New System.Drawing.Point(112, 30)
+        Me.lblidR.Name = "lblidR"
+        Me.lblidR.Size = New System.Drawing.Size(142, 23)
+        Me.lblidR.TabIndex = 1
+        Me.lblidR.Text = "Label1"
+        '
+        'cmbClassR
+        '
+        Me.cmbClassR.FormattingEnabled = True
+        Me.cmbClassR.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"})
+        Me.cmbClassR.Location = New System.Drawing.Point(112, 83)
+        Me.cmbClassR.Name = "cmbClassR"
+        Me.cmbClassR.Size = New System.Drawing.Size(142, 21)
+        Me.cmbClassR.TabIndex = 19
+        Me.cmbClassR.Text = "1"
+        '
+        'cmbYR
+        '
+        Me.cmbYR.FormattingEnabled = True
+        Me.cmbYR.Items.AddRange(New Object() {"2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25", "2025/26", "2026/27", "2027/28", "2028/29", "2029/30", "2030/31", "2031/32", "2032/33", "2033/34", "2034/35", "2035/36", "2036/37", "2037/38", "2038/39", "2039/40", "2040/41"})
+        Me.cmbYR.Location = New System.Drawing.Point(112, 56)
+        Me.cmbYR.Name = "cmbYR"
+        Me.cmbYR.Size = New System.Drawing.Size(142, 21)
+        Me.cmbYR.TabIndex = 18
+        Me.cmbYR.Text = "2010/11"
+        '
+        'cmbPR
+        '
+        Me.cmbPR.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.ClassesBindingSource, "Профил", True))
+        Me.cmbPR.FormattingEnabled = True
+        Me.cmbPR.Location = New System.Drawing.Point(112, 137)
+        Me.cmbPR.Name = "cmbPR"
+        Me.cmbPR.Size = New System.Drawing.Size(142, 21)
+        Me.cmbPR.TabIndex = 9
+        '
+        'HelpProvider1
+        '
+        Me.HelpProvider1.HelpNamespace = "helpHTML\HelpHTML.chm"
+        Me.HelpProvider1.Tag = "F1"
+        '
+        'classes_manual_input
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(910, 519)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.GroupBox3)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.dgv1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.HelpProvider1.SetHelpKeyword(Me, "Класове")
+        Me.HelpProvider1.SetHelpNavigator(Me, System.Windows.Forms.HelpNavigator.KeywordIndex)
+        Me.HelpProvider1.SetHelpString(Me, "Класове")
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
+        Me.Name = "classes_manual_input"
+        Me.HelpProvider1.SetShowHelp(Me, True)
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Въвеждане, изтриване и редактиране на класове"
+        CType(Me.dgv1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        CType(Me.Learning_activityDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ClassesBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents dgv1 As System.Windows.Forms.DataGridView
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents btnUpload As System.Windows.Forms.Button
+    Friend WithEvents Learning_activityDataSet As learning_activity.learning_activityDataSet
+    Friend WithEvents ClassesBindingSource As System.Windows.Forms.BindingSource
+    Friend WithEvents ClassesTableAdapter As learning_activity.learning_activityDataSetTableAdapters.classesTableAdapter
+    Friend WithEvents TableAdapterManager As learning_activity.learning_activityDataSetTableAdapters.TableAdapterManager
+    Friend WithEvents cmbStudentsUp As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbprofileUp As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbClassUp As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbGradeUp As System.Windows.Forms.ComboBox
+    Friend WithEvents lblIdUp As System.Windows.Forms.Label
+    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
+    Friend WithEvents lblstudentDel As System.Windows.Forms.Label
+    Friend WithEvents lblProfilDel As System.Windows.Forms.Label
+    Friend WithEvents lblClassesDel As System.Windows.Forms.Label
+    Friend WithEvents lblbGradeDel As System.Windows.Forms.Label
+    Friend WithEvents lblYearDel As System.Windows.Forms.Label
+    Friend WithEvents btndeletesubject As System.Windows.Forms.Button
+    Friend WithEvents lblIdDel As System.Windows.Forms.Label
+    Friend WithEvents cmbyearUp As System.Windows.Forms.ComboBox
+    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents lblidR As System.Windows.Forms.Label
+    Friend WithEvents cmbPR As System.Windows.Forms.ComboBox
+    Friend WithEvents btnRedakchia As System.Windows.Forms.Button
+    Friend WithEvents cmbSR As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbParalR As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbClassR As System.Windows.Forms.ComboBox
+    Friend WithEvents cmbYR As System.Windows.Forms.ComboBox
+    Private WithEvents HelpProvider1 As System.Windows.Forms.HelpProvider
+    Friend WithEvents iddgv1 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents shoolYear_dgv As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Grade As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents classas_dgv As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents profile_dgv As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Student_dgv As System.Windows.Forms.DataGridViewTextBoxColumn
+End Class

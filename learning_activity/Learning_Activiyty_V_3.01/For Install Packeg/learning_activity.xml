@@ -1,0 +1,231 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+learning_activity
+</name>
+</assembly>
+<members>
+<member name="T:learning_activity.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:learning_activity.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:learning_activity.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.absenceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.classesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.profilesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.purposeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.subjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.teachersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.teachingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.typesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.absenceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.classesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.profilesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.purposeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.subjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.teachersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.teachingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.typesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.absenceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.classesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.profilesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.purposeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.subjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.teachersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.teachingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSet.typesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSetTableAdapters.absenceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSetTableAdapters.classesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSetTableAdapters.profilesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSetTableAdapters.purposeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSetTableAdapters.subjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSetTableAdapters.teachersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSetTableAdapters.teachingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSetTableAdapters.typesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:learning_activity.learning_activityDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(learning_activity.learning_activityDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:learning_activity.learning_activityDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(learning_activity.learning_activityDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:learning_activity.learning_activityDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(learning_activity.learning_activityDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:learning_activity.learning_activityDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:learning_activity.learning_activityDataSetTableAdapters.TableAdapterManager.UpdateAll(learning_activity.learning_activityDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:learning_activity.learning_activityDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

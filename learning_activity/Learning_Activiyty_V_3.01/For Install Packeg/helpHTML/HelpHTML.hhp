@@ -1,0 +1,17 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=HelpHTML.chm
+Contents file=Table of Contents.hhc
+Default topic=form1.htm
+Display compile progress=No
+Index file=HelpHTML.hhk
+Language=0x402 Bulgarian (Bulgaria)
+
+
+[FILES]
+form1.htm
+subjects.htm
+teachers.html
+
+[INFOTYPES]
+
